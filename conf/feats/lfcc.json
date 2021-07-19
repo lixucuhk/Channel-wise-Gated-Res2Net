@@ -1,0 +1,8 @@
+{
+    "fs": 16000,
+    "num_ceps": 20,
+    "win_len": 0.020,
+    "win_hop": 0.010,
+    "nfilts": 20,
+    "nfft": 512
+}
