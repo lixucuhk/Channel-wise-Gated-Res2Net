@@ -3,14 +3,14 @@ This repository provides the implementation of the paper:
 [Channel-wise Gated Res2Net: Towards Robust Detection of Synthetic Speech Attacks](https://arxiv.org/pdf/2107.08803.pdf) (INTERSPEECH 2021).
 
 ## The Architecture of Channel-wise Gated Res2Net
-<div  align="center"> <img src="./result_table_figure/network_structure.png" width = "400" height = "600" align=center /></div>
+<div  align="center"> <img src="./result_table_figure/network_structure.png" width = "800" height = "400" align=center /></div>
 
 ## Main Results
 1. The EER(%) and t-DCF of different network architectures on the ASVspoof2019 logical access.
 ![](./result_table_figure/sys_performance_diff_architecture.png)
 
 2. The detection accuracy on each attack, given different network architectures with EER operating points. A16 and A19 are two attacks from the training set but trained with different training data. A17 is the most difficult unseen attack.
-<div  align="center"><img src="./result_table_figure/class_trr.png" width = "400" height = "600" align=center /></div>
+<div  align="center"><img src="./result_table_figure/class_trr.png" width = "800" height = "300" align=center /></div>
 
 
 ## Dependencies
