@@ -1,0 +1,6 @@
+numpy
+sacred
+scipy
+soundfile
+kaldi_io
+python_speech_features
