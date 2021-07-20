@@ -1,6 +1,7 @@
 # Channel-wise-Gated-Res2Net
 This repository provides the implementation of the paper:
 [Channel-wise Gated Res2Net: Towards Robust Detection of Synthetic Speech Attacks](https://arxiv.org/pdf/2107.08803.pdf) (INTERSPEECH 2021).
+This work is an extension of our [previous work](https://arxiv.org/pdf/2010.15006.pdf) (ICASSP 2021) with [Codes](https://github.com/lixucuhk/ASV-anti-spoofing-with-Res2Net).
 
 ## The Architecture of Channel-wise Gated Res2Net
 <div  align="center"> <img src="./result_table_figure/network_structure.png" width = "800" height = "400" align=center /></div>
@@ -71,6 +72,5 @@ If this repo is helpful with your research or projects, please kindly star our r
 ## Contact
 
 - [Xu Li](https://lixucuhk.github.io/) at the Chinese University of Hong Kong (xuli@se.cuhk.edu.hk, xuliustc1306@gmail.com)
-- If you have any questions or suggestions, please feel free to contact Xu Li via xuli@se.cuhk.edu.hk or xuliustc1306@gmail.com.
 
 
