@@ -11,7 +11,7 @@ This work is an extension of our [previous work](https://arxiv.org/pdf/2010.1500
 <div  align="center"><img src="./result_table_figure/sys_performance_diff_architecture.png" align=center /></div>
 
 2. The detection accuracy on each attack, given different network architectures with EER operating points. A16 and A19 are two attacks from the training set but trained with different training data. A17 is the most difficult unseen attack.
-<div  align="center"><img src="./result_table_figure/class_trr.png" width = "750" height = "280" align=center /></div>
+<div  align="center"><img src="./result_table_figure/class_trr.png" width = "750" height = "260" align=center /></div>
 
 
 ## Dependencies
