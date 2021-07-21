@@ -16,6 +16,7 @@ This work is an extension of our [previous work](https://arxiv.org/pdf/2010.1500
 
 ## Dependencies
 1. Python and packages
+
    This code was tested on Python 3.7 with PyTorch 1.6.0.
    Other packages can be installed by:
 
@@ -24,6 +25,7 @@ This work is an extension of our [previous work](https://arxiv.org/pdf/2010.1500
    ```
 
 2. Kaldi
+
    This work used Kaldi to extract the spectrogram acoustic feature, you need to install [Kaldi](https://github.com/kaldi-asr/kaldi) before running our scripts.
 
 ## Dataset
@@ -46,6 +48,7 @@ This work is an extension of our [previous work](https://arxiv.org/pdf/2010.1500
    ./start_training_evaluation.sh
    ```
    Remember to rename your `runid` in `start_training_evaluation.sh` to differentiate each configuration.
+   Some well-trained models are available in the `pretrained_models` directory.
    
 ### System evaluation
    For evaluating systems, you can either use the Kaldi command `compute-eer` with the resulting `*.eer` file to compute system EER, e.g.
