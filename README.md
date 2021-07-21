@@ -4,14 +4,14 @@ This repository provides the implementation of the paper:
 This work is an extension of our [previous work](https://arxiv.org/pdf/2010.15006.pdf) (ICASSP 2021) with [Codes](https://github.com/lixucuhk/ASV-anti-spoofing-with-Res2Net).
 
 ## The Architecture of Channel-wise Gated Res2Net
-<div  align="center"> <img src="./result_table_figure/network_structure.png" width = "700" height = "300" align=center /></div>
+<div  align="center"> <img src="./result_table_figure/network_structure.pdf" width = "700" height = "300" align=center /></div>
 
 ## Main Results
 1. The EER(%) and t-DCF of different network architectures on the ASVspoof2019 logical access.
 <div  align="center"><img src="./result_table_figure/sys_performance_diff_architecture.png" align=center /></div>
 
 2. The detection accuracy on each attack, given different network architectures with EER operating points. A16 and A19 are two attacks from the training set but trained with different training data. A17 is the most difficult unseen attack.
-<div  align="center"><img src="./result_table_figure/class_trr.png" width = "750" height = "280" align=center /></div>
+<div  align="center"><img src="./result_table_figure/class_trr.pdf" width = "750" height = "280" align=center /></div>
 
 
 ## Dependencies
